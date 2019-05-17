@@ -9,8 +9,8 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 
 class MouseClickedEX extends JFrame {
-	JLabel label;
-	JPanel panel;
+	private JLabel label;
+	private JPanel panel;
 	public MouseClickedEX() {
 		setTitle("Mouse Event");
 		setSize(300, 200);
