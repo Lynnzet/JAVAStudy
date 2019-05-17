@@ -13,6 +13,7 @@ class MyFrame extends JFrame implements MouseListener, MouseMotionListener {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
 		JPanel panel = new JPanel();
+		
 		panel.addMouseListener(this);
 		panel.addMouseMotionListener(this);
 		add(panel);
