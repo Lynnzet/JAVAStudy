@@ -18,7 +18,7 @@ public class KeyEventTest extends JFrame implements KeyListener {
 	private JTextArea area;
 
 	public KeyEventTest() {
-		panel = new JPanel(new GridLayout(0, 2));
+		panel = new JPanel(new GridLayout(0, 3));
 		panel.add(new JLabel("문자를 입력하시오: "));
 		field = new JTextField(10);
 		panel.add(field);
